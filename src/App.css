@@ -1,0 +1,16 @@
+/* Reset margins and paddings */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Make sure the body and html span the full height of the viewport */
+}
+
+/* Style the container to take the full viewport height and center content */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height of the viewport */
+  width: 100vw; /* Full width of the viewport */
+  margin: 0;
+}
